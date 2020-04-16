@@ -26,7 +26,7 @@ public class ProcedureRessource {
 
         jmsTemplate.convertAndSend(queue, message);
 
-        return "Published Successfully";
+        return "Successfully";
     }
 
 }

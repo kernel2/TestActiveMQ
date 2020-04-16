@@ -17,7 +17,7 @@ public class Config {
 
     @Bean
     public Queue queue() {
-        return new ActiveMQQueue("standalone.queue");
+        return new ActiveMQQueue("queue");
     }
 
     @Bean
